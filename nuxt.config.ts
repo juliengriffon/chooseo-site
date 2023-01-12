@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   components: true,
 
   css: [
+    '~/assets/css/main.css',
     '~/assets/css/anim.css',
     '~/assets/css/navbar.css'
   ],
