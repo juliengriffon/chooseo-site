@@ -1,0 +1,6 @@
+.buttonAnimate{
+  background: linear-gradient(to right, #fff 0%, #fff 50%, #ddd 50%, #ddd 100%);
+  background-size: 205% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.2s, color 0.08s;
+}

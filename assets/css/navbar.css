@@ -1,0 +1,53 @@
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* blue */
+.blue .text-theme-100 {
+  @apply text-blue-100
+}
+.blue .bg-theme-600 {
+  @apply bg-blue-600
+}
+.blue .buttonAnimate:hover{
+  background-position:0 0;
+  @apply text-blue-600
+}
+
+/* black */
+.black .text-theme-100 {
+  @apply text-slate-100
+}
+.black .bg-theme-600 {
+  @apply bg-black
+}
+.black .buttonAnimate:hover{
+  background-position:0 0;
+  @apply text-black
+}
+
+/* green */
+.green .text-theme-100 {
+  @apply text-green-100
+}
+.green .bg-theme-600 {
+  @apply bg-green-600
+}
+.green .buttonAnimate:hover{
+  background-position:0 0;
+  @apply text-green-600
+}
+
+/* red */
+.red .text-theme-100 {
+  @apply text-red-100
+}
+.red .bg-theme-600 {
+  @apply bg-red-600
+}
+.red .buttonAnimate:hover{
+  background-position:0 0;
+  @apply text-red-600
+}
